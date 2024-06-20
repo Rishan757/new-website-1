@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;  
+}
+
+body{
+    background: rgba(0,0,0,0.7) url(big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631\ \(1\).avif) center center fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-blend-mode:multiply;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color:orangered;
+    margin: left 10px;
+    cursor:pointer;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:orangered;
+    padding: 5px;
+    transition: 3.5s;
+}
+
+
+.navbar ul li a:hover{
+       box-shadow: 0 3px 50px orangered inset,0 3px 50px orangered inset, 0 3px 50px orangered inset;
+}
+
+.navbar .reservation{
+    padding: 8px;
+    background-color: violet;
+}
+
+.contant{
+    position: absolute;
+    top:40%;
+    left:30%;
+    color:#fff;
+}
+
+.contant h3{
+    font-family: sans-serif;
+    font: size 20px;
+    margin-left: 30%;
+}
+
+.contant h1{
+    font-size: 50px;
+}
+
+.contant p{
+    text-align: center;
+    margin-top: 17px;
+
+}
+
+.search{
+    position: absolute;
+    margin-top: 25%;
+    margin-left:  42%;
+}
+
+.search input{
+    border:none;
+    outline:none;
+    padding: 12px 40px;
+    size:1em;
+    width:100%
+}
+
+.Submit{
+    position: absolute;
+    margin-top:31%;
+    margin-left: 49%;
+
+}
+
+.Submit a{
+    text-decoration: none;
+    color:#fff;
+    padding: 12px 25px;
+    background-color: orangered;
+}
